@@ -1,0 +1,23 @@
+RAG Chatbot
+Copyright 2026 Albert Levin
+
+Licensed under the Apache License, Version 2.0 (see LICENSE).
+
+This project is derived from, and contains modified code from, the following
+Apache-2.0 licensed works. The original copyright notices are retained here.
+
+Vercel AI Chatbot template
+  https://github.com/vercel/ai-chatbot
+  Copyright 2024 Vercel, Inc.
+  Basis for the chat UI, authentication, chat persistence and database layer.
+
+Vercel AI SDK documentation (RAG chatbot guide)
+  https://github.com/vercel/ai
+  Copyright 2023 Vercel, Inc.
+  Basis for the knowledge-base tools, embedding and similarity search code
+  (lib/ai/embedding.ts, lib/actions/resources.ts, the resources and
+  embeddings schemas).
+
+Changes: the original code was reduced, restructured and extended (for
+example the chat route, tools, schema and README). See the git history for
+details.
